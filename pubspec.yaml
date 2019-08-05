@@ -66,10 +66,30 @@ flutter:
     - lib/assets/images/su-logo-white.png
     - lib/assets/images/barge1.jpg
     - lib/assets/images/barge2.jpg
+    - lib/assets/images/barge3.jpg
     - lib/assets/images/swan1.jpg
     - lib/assets/images/swan2.jpg
+    - lib/assets/images/swan3.jpg
     - lib/assets/images/shed1.jpg
     - lib/assets/images/shed2.jpg
+    - lib/assets/images/towerbar1.jpg
+    - lib/assets/images/towerbar2.jpg
+    - lib/assets/images/towerbar3.jpg
+    - lib/assets/images/potw1.jpg
+    - lib/assets/images/potw2.jpg
+    - lib/assets/images/potw3.jpg
+    - lib/assets/images/potw4.jpg
+    - lib/assets/images/potw5.jpg
+    - lib/assets/images/potw6.jpg
+    - lib/assets/images/aboutuni1.jpg
+    - lib/assets/images/aboutuni2.jpg
+    - lib/assets/images/aboutuni3.jpg
+    - lib/assets/images/courts1.jpg
+    - lib/assets/images/courts2.jpg
+    - lib/assets/images/courts3.jpg
+    - lib/assets/images/cygnet1.jpg
+    - lib/assets/images/cygnet2.jpg
+    - lib/assets/images/cygnet3.jpg
   fonts:
     - family: GoudyModern
       fonts:

@@ -8,10 +8,6 @@ import 'package:uol_open/pages/LibraryPage.dart';
 import 'package:uol_open/pages/SportsPage.dart';
 import 'package:uol_open/pages/SUPage.dart';
 import 'package:uol_open/pages/AccommodationPage.dart';
-import 'package:uol_open/pages/StudyPage.dart';
-import 'package:uol_open/pages/CityPage.dart';
-import 'package:uol_open/pages/InternationalPage.dart';
-import 'package:uol_open/pages/HeritagePage.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -26,11 +22,7 @@ void main() {
         '/library': (context) => LibraryPage(),
         '/sports': (context) => SportsPage(),
         '/accommodation': (context) => AccommodationPage(),
-        '/study': (context) => StudyPage(),
-        '/international': (context) => InternationalPage(),
         '/union': (context) => SUPage(),
-        '/city': (context) => CityPage(),
-        '/heritage': (context) => HeritagePage(),
       },
       theme: ThemeData(
           brightness: Brightness.dark,
@@ -79,52 +71,12 @@ class HomeScreen extends StatelessWidget {
                     }
                 ),
                 ListTile(
-                    title: Text("City of Lincoln"),
-                    trailing: Icon(Icons.location_city),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => CityPage()),
-                      );
-                    }
-                ),
-                ListTile(
-                    title: Text("Heritage of Lincoln"),
-                    trailing: Icon(Icons.info_outline),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => HeritagePage()),
-                      );
-                    }
-                ),
-                ListTile(
-                    title: Text("International Students"),
-                    trailing: Icon(Icons.flight),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => InternationalPage()),
-                      );
-                    }
-                ),
-                ListTile(
                     title: Text("Lincoln SU"),
                     trailing: Icon(Icons.info_outline),
                     onTap: () {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => SUPage()),
-                      );
-                    }
-                ),
-                ListTile(
-                    title: Text("Study at UoL"),
-                    trailing: Icon(Icons.library_books),
-                    onTap: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => StudyPage()),
                       );
                     }
                 ),
@@ -203,57 +155,67 @@ class HomeScreen extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           children: <Widget>[
             Container(
-              height: 50,
+              height: 65,
               color: Color(0xFF047E8B),
               child: const Center(child: Text('Welcome Talk - Lincoln in 2020. 10am, INB Lecture Hall.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF047E8B),
                 child: const Center(child: Text('Welcome Talk - Lincoln in 2020. 12pm, LPAC Auditorium.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF002147),
                 child: const Center(child: Text('Accommodation at Lincoln. 11am and 2pm, INB Lecture Hall.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF047E8B),
                 child: const Center(child: Text('Admissions & UCAS. 12pm, Co-Op Lecture Hall, Minerva.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF002147),
                 child: const Center(child: Text('Student Finance, Fees, Funding. 11am, SLB Lecture Hall.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF002147),
                 child: const Center(child: Text('Student Finance, Fees, Funding. 1pm, INB Lecture Hall.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF047E8B),
                 child: const Center(child: Text('Student Life at Lincoln. 10am, NDH1010 Lecture Hall.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF047E8B),
                 child: const Center(child: Text('Student Life at Lincoln. 1pm, Co-Op Lecture Hall, Minerva.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF002147),
                 child: const Center(child: Text('Careers and Employability. 11am, Cargill Lecture Hall, Minerva.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF047E8B),
                 child: const Center(child: Text('Lincoln Student Union. 1pm, Cargill Lecture Hall, Minerva.'))
             ),
+            Divider(),
             Container(
-                height: 50,
+                height: 65,
                 color: Color(0xFF002147),
                 child: const Center(child: Text('Personal Statement Help. 11am, 12pm, 1pm, Junxion Building Room 0003.'))
             )
@@ -261,6 +223,5 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
     );
-    /**/
   }
 }
