@@ -75,7 +75,7 @@ class WeatherPageState extends State<WeatherPage> {
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
-                        height: 200.0,
+                        height: 168.0,
                         child: forecastData != null ? ListView.builder(
                             itemCount: forecastData.list.length,
                             scrollDirection: Axis.horizontal,
