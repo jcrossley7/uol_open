@@ -90,6 +90,14 @@ flutter:
     - lib/assets/images/cygnet1.jpg
     - lib/assets/images/cygnet2.jpg
     - lib/assets/images/cygnet3.jpg
+    - lib/assets/images/sports1.jpg
+    - lib/assets/images/sports2.jpg
+    - lib/assets/images/sports3.jpg
+    - lib/assets/images/sports4.jpg
+    - lib/assets/images/sports5.jpg
+    - lib/assets/images/sports6.jpg
+    - lib/assets/images/sports7.jpg
+    - lib/assets/images/sports8.jpg
   fonts:
     - family: GoudyModern
       fonts:
